@@ -22,10 +22,15 @@ make
 make install # may require extra privileges depending on where to install
 ```
 
+3. Install plugins
+
+```bash
+vim -c :PlugInstall
+```
+
 ## Plugins
 
-1. [vim-surroind](https://github.com/tpope/vim-surround)
-2. [vim-airline](https://github.com/vim-airline/vim-airline)
-3. [tagbar](https://github.com/preservim/tagbar)
-4. [vim-commentary](https://github.com/tpope/vim-commentary)
-5. [gruvbox](https://github.com/morhetz/gruvbox)
+1. [vim-airline](https://github.com/vim-airline/vim-airline)
+2. [tagbar](https://github.com/preservim/tagbar)
+3. [vim-commentary](https://github.com/tpope/vim-commentary)
+4. [gruvbox](https://github.com/morhetz/gruvbox)

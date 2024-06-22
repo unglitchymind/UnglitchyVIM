@@ -12,8 +12,8 @@ set smarttab
 set hlsearch
 set ignorecase
 set encoding=utf-8
-set scrolloff=10
-set sidescrolloff=10
+set scrolloff=3
+set sidescrolloff=3
 set wildmenu
 set foldmethod=indent
 set noswapfile
@@ -31,7 +31,6 @@ let mapleader = " "
 
 call plug#begin()
 
-Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-commentary'
