@@ -35,6 +35,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-commentary'
 Plug 'morhetz/gruvbox'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 

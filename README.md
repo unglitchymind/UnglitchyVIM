@@ -34,3 +34,4 @@ vim -c :PlugInstall
 2. [tagbar](https://github.com/preservim/tagbar)
 3. [vim-commentary](https://github.com/tpope/vim-commentary)
 4. [gruvbox](https://github.com/morhetz/gruvbox)
+5. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
