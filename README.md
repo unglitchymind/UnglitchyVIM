@@ -32,3 +32,4 @@ make install # may require extra privileges depending on where to install
 6. [tagbar](https://github.com/preservim/tagbar)
 7. [vim-commentary](https://github.com/tpope/vim-commentary)
 8. [fzf](https://github.com/junegunn/fzf)
+9. [gruvbox](https://github.com/morhetz/gruvbox)

@@ -21,6 +21,7 @@ set autoread
 set clipboard=unnamedplus
 set cursorline
 set termguicolors
+set background=dark
 
 let mapleader = " "
 
@@ -37,6 +38,7 @@ Plug 'preservim/tagbar'
 Plug 'tpope/vim-commentary'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -50,3 +52,8 @@ nmap <F8> :TagbarToggle<CR>
 
 nmap <leader>ff :Files<CR>
 nmap <leader>fb :Buffers<CR>
+
+" COLORSCHEME
+
+let g:gruvbox_contrast_dark=('hard')
+colorscheme gruvbox
