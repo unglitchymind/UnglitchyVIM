@@ -24,13 +24,8 @@ make install # may require extra privileges depending on where to install
 
 ## Plugins
 
-1. [vim-fugitive](https://github.com/tpope/vim-fugitive)
-2. [vim-surroind](https://github.com/tpope/vim-surround)
-3. [ale](https://github.com/dense-analysis/ale)
-4. [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
-5. [vim-airline](https://github.com/vim-airline/vim-airline)
-6. [tagbar](https://github.com/preservim/tagbar)
-7. [vim-commentary](https://github.com/tpope/vim-commentary)
-8. [fzf](https://github.com/junegunn/fzf)
-9. [gruvbox](https://github.com/morhetz/gruvbox)
-10. [vim-floaterm](https://github.com/voldikss/vim-floaterm)
+1. [vim-surroind](https://github.com/tpope/vim-surround)
+2. [vim-airline](https://github.com/vim-airline/vim-airline)
+3. [tagbar](https://github.com/preservim/tagbar)
+4. [vim-commentary](https://github.com/tpope/vim-commentary)
+5. [gruvbox](https://github.com/morhetz/gruvbox)

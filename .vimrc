@@ -31,17 +31,11 @@ let mapleader = " "
 
 call plug#begin()
 
-Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-Plug 'dense-analysis/ale'
-Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-commentary'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
-Plug 'voldikss/vim-floaterm'
 
 call plug#end()
 
@@ -50,17 +44,6 @@ call plug#end()
 " tagbar
 
 nmap <F8> :TagbarToggle<CR>
-
-" fzf
-
-nmap <leader>ff :Files<CR>
-nmap <leader>fb :Buffers<CR>
-
-" vim-floaterm
-
-let g:floaterm_width=0.9
-let g:floaterm_height=0.9
-nmap <leader>ft :FloatermToggle<CR>
 
 " COLORSCHEME
 
