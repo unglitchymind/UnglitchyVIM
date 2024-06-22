@@ -22,6 +22,8 @@ set clipboard=unnamedplus
 set cursorline
 set termguicolors
 set background=dark
+set colorcolumn=80
+set signcolumn=yes
 
 let mapleader = " "
 
