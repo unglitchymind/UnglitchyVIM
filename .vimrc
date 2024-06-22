@@ -10,7 +10,7 @@ set shiftwidth=4
 set tabstop=4
 set smarttab
 set hlsearch
-set smartcase
+set ignorecase
 set encoding=utf-8
 set scrolloff=10
 set sidescrolloff=10
@@ -45,3 +45,8 @@ call plug#end()
 " tagbar
 
 nmap <F8> :TagbarToggle<CR>
+
+" fzf
+
+nmap <leader>ff :Files<CR>
+nmap <leader>fb :Buffers<CR>
