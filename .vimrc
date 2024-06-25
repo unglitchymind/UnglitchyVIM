@@ -34,8 +34,8 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-commentary'
-Plug 'morhetz/gruvbox'
 Plug 'jiangmiao/auto-pairs'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
@@ -47,5 +47,4 @@ nmap <F8> :TagbarToggle<CR>
 
 " COLORSCHEME
 
-let g:gruvbox_contrast_dark=('hard')
-colorscheme gruvbox
+colorscheme habamax

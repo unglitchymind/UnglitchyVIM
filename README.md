@@ -33,5 +33,4 @@ vim -c :PlugInstall
 1. [vim-airline](https://github.com/vim-airline/vim-airline)
 2. [tagbar](https://github.com/preservim/tagbar)
 3. [vim-commentary](https://github.com/tpope/vim-commentary)
-4. [gruvbox](https://github.com/morhetz/gruvbox)
-5. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+4. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
