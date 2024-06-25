@@ -6,8 +6,9 @@ filetype plugin indent on
 
 set number relativenumber
 set autoindent
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
+set expandtab
 set smarttab
 set hlsearch
 set ignorecase
