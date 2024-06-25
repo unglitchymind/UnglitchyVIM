@@ -24,6 +24,7 @@ set termguicolors
 set background=dark
 set colorcolumn=80
 set signcolumn=yes
+set backspace=indent,eol,start
 
 let mapleader = " "
 
