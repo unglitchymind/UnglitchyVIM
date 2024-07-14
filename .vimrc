@@ -37,7 +37,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
-Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
@@ -49,4 +48,4 @@ nmap <F8> :TagbarToggle<CR>
 
 " COLORSCHEME
 
-colorscheme habamax
+colorscheme shine
