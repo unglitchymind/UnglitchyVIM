@@ -26,16 +26,20 @@ set background=dark
 set colorcolumn=80
 set signcolumn=yes
 set backspace=indent,eol,start
+set laststatus=2
 
-let mapleader = " "
+let mapleader = ' '
 
 " PLUGINS
 
 call plug#begin()
 
-Plug 'vim-airline/vim-airline'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-commentary'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
@@ -45,6 +49,11 @@ call plug#end()
 " tagbar
 
 nmap <F8> :TagbarToggle<CR>
+
+" fzf
+
+nmap <leader>ff :Files<CR>
+nmap <leader>fb :Buffers<CR>
 
 " COLORSCHEME
 
