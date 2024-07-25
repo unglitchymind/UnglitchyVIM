@@ -35,4 +35,3 @@ vim -c :PlugInstall
 3. [vim-commentary](https://github.com/tpope/vim-commentary)
 4. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 5. [fzf](https://github.com/junegunn/fzf.vim)
-6. [vim-surround](https://github.com/tpope/vim-surround)

@@ -39,7 +39,6 @@ Plug 'tpope/vim-commentary'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
@@ -52,7 +51,6 @@ nmap <F8> :TagbarToggle<CR>
 
 " fzf
 
-nmap <leader>ff :Files<CR>
 nmap <leader>fb :Buffers<CR>
 
 " COLORSCHEME
