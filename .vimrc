@@ -55,4 +55,4 @@ nmap <leader>fb :Buffers<CR>
 
 " COLORSCHEME
 
-colorscheme shine
+colorscheme delek
