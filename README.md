@@ -35,3 +35,7 @@ vim -c :PlugInstall
 3. [vim-commentary](https://github.com/tpope/vim-commentary)
 4. [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 5. [fzf](https://github.com/junegunn/fzf.vim)
+6. [vim-lsp](https://github.com/prabirshrestha/vim-lsp)
+7. [vim-lsp-settings](https://github.com/mattn/vim-lsp-settings)
+8. [asyncomplete](https://github.com/prabirshrestha/asyncomplete.vim)
+9. [asyncomplete-lsp](https://github.com/prabirshrestha/asyncomplete-lsp.vim)
