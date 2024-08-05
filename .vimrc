@@ -16,7 +16,7 @@ set encoding=utf-8
 set scrolloff=3
 set sidescrolloff=3
 set wildmenu
-set foldmethod=indent
+set foldmethod=syntax
 set noswapfile
 set autoread
 set clipboard=unnamedplus
